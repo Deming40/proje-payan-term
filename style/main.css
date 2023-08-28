@@ -46,13 +46,13 @@ hr {
     height: 100%;
 }
 
-.navbar>.leftNav {
+.navbar>.rightnav {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
 
-.navbar>.leftNav>.logo {
+.navbar>.rightnav>.logo {
     margin: 10px 15px;
     color: #b3b3b3;
     width: 120px;
@@ -63,26 +63,26 @@ hr {
     justify-content: space-between;
 }
 
-.navbar>.leftNav>.logo img {
+.navbar>.rightnav>.logo img {
     width: 45px;
     height: 45px;
     border-radius: 3px;
 }
 
-.navbar>.leftNav>.menu {
+.navbar>.rightnav>.menu {
     margin: 10px 15px;
     color: rgb(212, 212, 212);
     font-size: 15px;
     direction: rtl;
 }
 
-.navbar>.leftNav .mainMenu {
+.navbar>.rightnav .mainMenu {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar>.leftNav .menuTitle {
+.navbar>.rightnav .menuTitle {
     display: flex;
     align-items: center;
     margin: 0;
@@ -136,13 +136,13 @@ hr {
     padding: 0 7px;
 }
 
-.navbar>.rightNav {
+.navbar>.leftnav {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
 
-.navbar>.rightNav>.search {
+.navbar>.leftnav>.search {
     direction: rtl;
     height: 35px;
     width: 250px;
@@ -151,7 +151,7 @@ hr {
     flex-direction: row-reverse;
 }
 
-.navbar>.rightNav input {
+.navbar>.leftnav input {
     width: 180px;
     height: 100%;
     display: block;
@@ -163,11 +163,11 @@ hr {
     font-family: sahel;
 }
 
-.navbar>.rightNav input::placeholder {
+.navbar>.leftnav input::placeholder {
     color: aliceblue;
 }
 
-.navbar>.rightNav input:focus {
+.navbar>.leftnav input:focus {
     outline: none;
 }
 
@@ -189,7 +189,7 @@ hr {
     border: none;
 }
 
-.navbar>.rightNav>.user {
+.navbar>.leftnav>.user {
     height: 100%;
     color: orange;
 
